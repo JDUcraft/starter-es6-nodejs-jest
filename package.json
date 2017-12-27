@@ -1,0 +1,27 @@
+{
+  "name": "starter-es6-nodejs-jest",
+  "version": "1.0.0",
+  "description": "Starter NodeJS + ES6 + Jest project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "jest",
+    "nodejs",
+    "es6"
+  ],
+  "author": "jdu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-preset-env": "^1.6.1",
+    "jest": "*",
+    "jest-cli": "*"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    }
+  }
+}
